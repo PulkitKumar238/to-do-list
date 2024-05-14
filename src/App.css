@@ -1,7 +1,8 @@
 .App {
   text-align: center;
 }
-h1{
+.heading
+{
   margin: 0px;
 }
 .header{
@@ -26,3 +27,56 @@ h1{
    margin: 20px;
    height: 40px;
 }
+
+.task-list-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 150px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.task-list {
+      display: flex;
+      flex-direction: column;
+      margin: 150px;
+      margin-bottom: 0px;
+      margin-top: 0px;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.task-list ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.task-table th,
+.task-table td {
+  width: 33.33%;
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+.task-list-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px 0;
+  margin-bottom: 0;
+}
+
+.task-list-head h1 {
+  margin: 0;
+}
+    
